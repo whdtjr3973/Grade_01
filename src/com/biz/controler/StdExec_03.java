@@ -1,0 +1,20 @@
+package com.biz.controler;
+
+import com.biz.model.StudentVO;
+
+public class StdExec_03 {
+
+	public static void main(String[] args) {
+		
+		StudentVO[] stdList = new StudentVO[5];
+		
+		StudentVO sVO = new StudentVO("1","È«±æµ¿",3,"¼­¿ï½Ã","001");
+		stdList[0] = sVO;
+		stdList[1] = new StudentVO("2","¼ºÃáÇâ",4,"³²¿ø","002");
+		stdList[2] = new StudentVO("3","ÀÌ¸ù·æ",1,"¼­¿ï½Ã","003");
+		stdList[3] = new StudentVO("4","ÀÓ²©Á¤",2,"Æò¾ç","004");
+		stdList[4] = new StudentVO("5","Àå³ì¼ö",2,"ÇÑ¾ç","005");
+		
+		
+	}
+}
